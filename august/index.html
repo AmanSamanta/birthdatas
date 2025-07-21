@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="birthday-card">
+    <h1>🎉 Happy Birthday Aman 🎉</h1>
+
+    <h3>🎁 Birthday Wishes name list</h3>
+   <ul id="wishList" class="wish-list"></ul>
+
+    <p class="subtitle">Enter your name to send a wish 🎂</p>
+    
+    <input type="text" id="wisherName" placeholder="Your Name Here..." />
+    <button onclick="sendWish()">Send Wish</button>
+
+    <div class="wish-box hidden" id="wishBox">
+      <p id="wishMessage"></p>
+      <img src="birth.jpg" alt="Birthday Person" id="bdayImage" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
